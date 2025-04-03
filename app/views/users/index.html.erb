@@ -1,0 +1,46 @@
+<table class="table">
+  <tbody>
+    <tr>
+      <th>name</th> <th><%= @user.name %></th>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Skill投稿フォーム</h1>
+
+<% if @skill.errors.any? %>
+  <%= @skill.errors.count %> errors prohibited this skill from being saved:
+  <ul>
+    <% @skill.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= form_with model: @skill do |f| %>
+  <h4>タイトル</h4>
+  <%= f.text_field :title %>
+  <h4>本文</h4>
+  <%= f.text_field :body %><br/>
+  <%= f.submit '投稿'%>
+<% end %>
+
+<h2>Users</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td>
+          <%= link_to "Show", user_path(user.id) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
