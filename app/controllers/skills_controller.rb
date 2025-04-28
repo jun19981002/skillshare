@@ -1,4 +1,4 @@
-class SkillsController < ApplicationController
+class Public::SkillsController < ApplicationController
 
   def index
     @user = current_user
@@ -22,7 +22,10 @@ class SkillsController < ApplicationController
     @skill = Skill.new
     @skill_show = Skill.find(params[:id])
     @skills = Skill.all
-    @user = @skill_show.user
+    @user = current_user
+    @user_show = @skill_show.user
+    @comments = @skill_show.comments
+    @comment = Comment.new
   end
 
   def edit

@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Public::UsersController < ApplicationController
   def index
     @user = current_user
     @skill = Skill.new
@@ -20,6 +20,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @skill = @user.skill
+    @skills = @user.skills
   end
 
   def edit
