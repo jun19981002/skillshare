@@ -10,6 +10,9 @@ Rails.application.routes.draw do
       end
     end
   resources :users, only: [:index, :show, :edit, :update]
+  resources :groups, except: [:index] do
+    resource :membership, only: [:create, :destroy]
+  end
   get 'search', to: 'searches#search', as: 'search'
   get 'home/top'
   get 'home/about'
@@ -20,12 +23,10 @@ Rails.application.routes.draw do
   namespace :admin do
     get 'dashboards', to: 'dashboards#index'
     resources :users, only: [:destroy]
+    resources :comments, only: [:destroy] 
   end
 
   scope module: :public do
-    devise_for :users
-    root to: 'homes#top'
-    get 'homes/about', to: 'homes#about', as: :about
     resources :post_images, only: [:new, :create, :index, :show, :destroy] do
       resource :favorites, only: [:create, :destroy]
       resources :post_comments, only: [:create, :destroy]
