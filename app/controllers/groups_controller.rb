@@ -1,4 +1,4 @@
-class GroupsController < ApplicationController7
+class GroupsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
   before_action :owner?, only: [:edit, :update, :destroy]
   def new
