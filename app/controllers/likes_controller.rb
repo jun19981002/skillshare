@@ -1,4 +1,4 @@
-class Public::LikesController < ApplicationController
+class LikesController < ApplicationController
   before_action :authenticate_user!, only: [:show, :create]
   def index
     @posts = Post.all

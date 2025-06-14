@@ -1,4 +1,4 @@
-class Public::UsersController < ApplicationController
+class UsersController < ApplicationController
   def index
     @user = current_user
     @skill = Skill.new

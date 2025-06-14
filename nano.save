@@ -1,0 +1,66 @@
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND root 1 0.0 0.3 123692 3052 ?  Ss Jan05 2:15 /usr/lib/systemd/systemd --switched-root --system 
+--deserialize 21 root 2 0.0 0.0 0 0 ?  S Jan05 0:00 [kthreadd] root 3 0.0 0.0 0 0 ?  I< Jan05 0:00 [rcu_gp] root 4 0.0 0.0 0 0 ?  I< Jan05 0:00 
+[rcu_par_gp] root 6 0.0 0.0 0 0 ?  I< Jan05 0:00 [kworker/0:0H-ev] root 8 0.0 0.0 0 0 ?  I< Jan05 0:00 [mm_percpu_wq] root 9 0.0 0.0 0 0 ?  S Jan05 0:00 
+[rcu_tasks_rude_] root 10 0.0 0.0 0 0 ?  S Jan05 0:00 [rcu_tasks_trace] root 11 0.0 0.0 0 0 ?  S Jan05 0:47 [ksoftirqd/0] root 12 0.0 0.0 0 0 ?  I Jan05 
+9:15 [rcu_sched] root 13 0.0 0.0 0 0 ?  S Jan05 1:08 [migration/0] root 15 0.0 0.0 0 0 ?  S Jan05 0:00 [cpuhp/0] root 17 0.0 0.0 0 0 ?  S Jan05 0:00 
+[kdevtmpfs] root 18 0.0 0.0 0 0 ?  I< Jan05 0:00 [netns] root 21 0.0 0.0 0 0 ?  S Jan05 0:03 [kauditd] root 299 0.0 0.0 0 0 ?  S Jan05 0:03 [khungtaskd] 
+root 300 0.0 0.0 0 0 ?  S Jan05 0:00 [oom_reaper] root 301 0.0 0.0 0 0 ?  I< Jan05 0:00 [writeback] root 303 0.0 0.0 0 0 ?  S Jan05 11:40 [kcompactd0] 
+root 304 0.0 0.0 0 0 ?  SN Jan05 0:00 [ksmd] root 305 0.0 0.0 0 0 ?  SN Jan05 0:00 [khugepaged] root 361 0.0 0.0 0 0 ?  I< Jan05 0:00 [kintegrityd] root 
+363 0.0 0.0 0 0 ?  I< Jan05 0:00 [kblockd] root 364 0.0 0.0 0 0 ?  I< Jan05 0:00 [blkcg_punt_bio] root 533 0.0 0.0 0 0 ?  S Jan05 0:00 [xen-balloon] 
+root 724 0.0 0.0 0 0 ?  I< Jan05 0:00 [tpm_dev_wq] root 730 0.0 0.0 0 0 ?  I< Jan05 0:00 [md] root 733 0.0 0.0 0 0 ?  I< Jan05 0:00 [edac-poller] root 
+738 0.0 0.0 0 0 ?  S Jan05 0:00 [watchdogd] root 834 0.0 0.0 0 0 ?  I< Jan05 1:35 [kworker/0:1H-kb] root 886 0.0 0.0 0 0 ?  S Jan05 2:22 [kswapd0] root 
+888 0.0 0.0 0 0 ?  I< Jan05 0:00 [xfsalloc] root 889 0.0 0.0 0 0 ?  I< Jan05 0:00 [xfs_mru_cache] root 892 0.0 0.0 0 0 ?  I< Jan05 0:00 [kthrotld] root 
+903 0.0 0.0 0 0 ?  S Jan05 0:00 [xenbus] root 904 0.0 0.0 0 0 ?  S Jan05 0:00 [xenwatch] root 941 0.0 0.0 0 0 ?  I< Jan05 0:00 [nvme-wq] root 944 0.0 
+0.0 0 0 ?  I< Jan05 0:00 [nvme-reset-wq] root 946 0.0 0.0 0 0 ?  I< Jan05 0:00 [nvme-delete-wq] root 973 0.0 0.9 1242216 9168 ?  Ssl Feb12 3:16 
+/usr/bin/amazon-ssm-agent root 976 0.0 0.0 0 0 ?  I< Jan05 0:00 [ipv6_addrconf] root 985 0.0 0.0 0 0 ?  I< Jan05 0:00 [kstrp] root 996 0.0 0.0 0 0 ?  I< 
+Jan05 0:00 [zswap-shrink] root 997 0.0 0.0 0 0 ?  I< Jan05 0:00 [kworker/u31:0] root 1677 0.0 0.0 0 0 ?  I< Jan05 0:00 [ata_sff] root 1690 0.0 0.0 0 0 ?  
+S Jan05 0:00 [scsi_eh_0] root 1691 0.0 0.0 0 0 ?  I< Jan05 0:00 [scsi_tmf_0] root 1692 0.0 0.0 0 0 ?  S Jan05 0:00 [scsi_eh_1] root 1696 0.0 0.0 0 0 ?  
+I< Jan05 0:00 [scsi_tmf_1] root 1718 0.0 0.0 0 0 ?  I< Jan05 0:00 [xfs-buf/xvda1] root 1719 0.0 0.0 0 0 ?  I< Jan05 0:00 [xfs-conv/xvda1] root 1720 0.0 
+0.0 0 0 ?  I< Jan05 0:00 [xfs-cil/xvda1] root 1721 0.0 0.0 0 0 ?  I< Jan05 0:00 [xfs-reclaim/xvd] root 1722 0.0 0.0 0 0 ?  I< Jan05 0:00 
+[xfs-eofblocks/x] root 1723 0.0 0.0 0 0 ?  I< Jan05 0:00 [xfs-log/xvda1] root 1724 0.0 0.0 0 0 ?  S Jan05 49:34 [xfsaild/xvda1] root 1783 0.0 1.2 96268 
+11896 ?  Ss Jan05 2:31 /usr/lib/systemd/systemd-journald root 1811 0.0 0.0 46132 0 ?  Ss Jan05 0:00 /usr/lib/systemd/systemd-udevd root 1818 0.0 0.0 
+116712 0 ?  Ss Jan05 0:00 /usr/sbin/lvmetad -f root 1820 0.0 0.0 0 0 ?  I< Jan05 0:00 [ena] root 2510 0.0 0.0 0 0 ?  I< Jan05 0:00 [cryptd] root 2605 
+0.0 0.0 0 0 ?  I< Jan05 0:00 [rpciod] root 2606 0.0 0.0 0 0 ?  I< Jan05 0:00 [xprtiod] root 2609 0.0 0.0 59740 460 ?  S<sl Jan05 0:25 /sbin/auditd root 
+2637 0.0 0.1 28548 1644 ?  Ss Jan05 0:51 /usr/lib/systemd/systemd-logind libstor+ 2642 0.0 0.0 12632 32 ?  Ss Jan05 0:28 /usr/bin/lsmd -d root 2646 0.0 
+0.0 4272 0 ?  Ss Jan05 0:00 /usr/sbin/acpid rpc 2648 0.0 0.0 67260 52 ?  Ss Jan05 0:16 /sbin/rpcbind -w dbus 2650 0.0 0.1 58372 1052 ?  Ss Jan05 1:13 
+/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation rngd 2663 0.0 0.0 96348 0 ?  Ss Jan05 0:00 /sbin/rngd -f 
+--fill-watermark=0 --exclude=jitter chrony 2664 0.0 0.0 120188 600 ?  S Jan05 3:29 /usr/sbin/chronyd -F 2 root 2682 0.0 0.0 101596 0 ?  Ssl Jan05 0:00 
+/usr/sbin/gssproxy -D root 2898 0.0 0.1 98688 1800 ?  Ss Jan05 0:05 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf 
+/var/run/dhclient-eth0.pid eth0 root 2947 0.0 0.1 98688 1060 ?  Ss Jan05 0:19 /sbin/dhclient -6 -nw -lf /var/lib/dhclient/dhclient6--eth0.lease -pf 
+/var/run/dhclient6-eth0.pid eth0 root 3097 0.0 0.0 90312 336 ?  Ss Jan05 0:25 /usr/libexec/postfix/master -w postfix 3099 0.0 0.0 90472 288 ?  S Jan05 
+0:04 qmgr -l -t unix -u root 3188 0.0 0.1 581844 1268 ?  Ssl Jan05 12:08 /usr/sbin/rsyslogd -n root 3196 0.0 0.1 24684 1240 ?  Ss Jan05 0:20 
+/usr/sbin/crond -n root 3197 0.0 0.0 27888 4 ?  Ss Jan05 0:00 /usr/sbin/atd -f root 3225 0.0 0.0 121312 0 tty1 Ss+ Jan05 0:00 /sbin/agetty --noclear 
+tty1 linux root 3226 0.0 0.0 10560 0 ttyS0 Ss+ Jan05 0:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220 root 3277 0.0 0.1 110852 1200 ?  Ss 
+Jan05 0:29 /usr/sbin/sshd -D ec2-user 13759 0.0 0.0 638312 936 ?  Sl Feb22 0:01 spring server | bookers2 | started 2690 hours ago root 19625 0.0 0.0 0 0 
+?  I Jun13 0:00 [kworker/u30:2-e] root 24129 0.0 0.6 148524 5884 ?  Ss 06:50 0:00 sshd: ec2-user [priv] ec2-user 24147 0.0 0.2 148664 2776 ?  S 06:50 
+0:01 sshd: ec2-user@notty ec2-user 24148 0.0 0.2 119992 2740 ?  Ss 06:50 0:00 sh ec2-user 24213 0.0 0.3 30504 3788 ?  Sl 06:50 0:02 
+/home/ec2-user/.vscode-server/code-ddc367ed5c8936efe395cffeec279b04ffd7db78 command-shell --cli-data-dir /home/ec2-user/.vscode-server/cli 
+--parent-process-id 24148 --on-host=127.0.0.1 --on-port ec2-user 24253 0.0 0.2 119864 2588 ?  S 06:50 0:00 sh 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/code-server --connection-token=remotessh 
+--accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-5d0ca385-2887-481d-bd0a-8a5c87470531 ec2-user 24259 
+0.1 6.7 11765476 65648 ?  Sl 06:50 0:06 /home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/server-main.js --connection-token=remotessh 
+--accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-5d0ca385-2887-481d-bd0a-8a5c87470531 ec2-user 24329 
+0.2 10.9 32781888 106628 ?  Sl 06:50 0:11 /home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node 
+--dns-result-order=ipv4first /home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/bootstrap-fork 
+--type=extensionHost --transformURIs --useHostProxy=false ec2-user 24340 0.3 11.1 11820908 108496 ?  Sl 06:50 0:14 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/bootstrap-fork --type=fileWatcher ec2-user 24354 
+0.1 5.0 11650044 49356 ?  Sl 06:50 0:06 /home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/bootstrap-fork --type=ptyHost --logsPath 
+/home/ec2-user/.vscode-server/data/logs/20250614T065020 ec2-user 24388 0.0 0.4 125012 4260 pts/1 Ss 06:50 0:00 /bin/bash --init-file 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh 
+ec2-user 24823 0.0 3.7 1015576 36716 ?  Sl 06:57 0:00 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/json-language-features/server/dist/node/jsonServerMain 
+--node-ipc --clientProcessId=24329 ec2-user 24849 0.0 0.7 189676 7324 pts/1 S+ 06:57 0:00 ssh -i /home/ec2-user/.ssh/practice-aws.pem 
+ec2-user@18.183.125.172 ec2-user 25758 0.2 2.3 609928 22444 ?  Ssl Mar05 349:16 spring app | bookers2 | started 2425 hours ago | test mode ec2-user 
+25761 0.2 2.5 800924 25172 ?  Ssl Mar05 350:00 spring app | bookers2 | started 2425 hours ago | development mode postfix 26593 0.0 0.6 90400 5948 ?  S 
+07:13 0:00 pickup -l -t unix -u ec2-user 27407 0.0 0.4 125144 4316 pts/2 Ss 07:21 0:00 /bin/bash --init-file 
+/home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh 
+ec2-user 27907 0.0 2.4 434684 23916 pts/2 Sl 07:26 0:00 spring server | skillshare | started 34 mins ago ec2-user 27909 0.2 12.6 980444 123516 ?  Ssl 
+07:26 0:06 spring app | skillshare | started 34 mins ago | development mode root 28281 0.0 0.0 0 0 ?  I 07:30 0:00 [kworker/u30:0-x] ec2-user 28613 0.0 
+0.5 135568 5312 pts/2 T 07:43 0:00 git commit -a ec2-user 28615 0.0 1.0 148856 9756 pts/2 Tl 07:43 0:00 /usr/bin/vim 
+/home/ec2-user/environment/skillshare/.git/COMMIT_EDITMSG root 28747 0.0 0.0 0 0 ?  I 07:44 0:00 [kworker/0:1-cgr] root 28921 0.0 0.0 0 0 ?  I 07:52 
+0:00 [kworker/0:2-eve] root 29013 0.0 0.0 0 0 ?  I 07:59 0:00 [kworker/0:0-xfs] ec2-user 29048 0.0 0.0 114648 724 ?  S 07:59 0:00 sleep 180 ec2-user 
+29150 0.0 0.3 162300 3756 pts/2 R+ 08:01 0:00 ps aux ec2-user 29151 0.0 0.0 5004 288 pts/2 R+ 08:01 0:00 nano
